@@ -5,11 +5,12 @@ import { combineReducers } from 'redux';
 
 // IMPORT REDUCERS
 
-import { FetchSecuritiesReducer } from './FetchSecuritiesReducer';
-
+import { FetchSearchItemSecuritiesReducer } from './FetchSearchItemSecuritiesReducer';
+import { FetchSecuritiesReducer} from "./FetchSecuritiesReducer";
 
 // EXPORT APP REDUCER
 
 export const AppReducer = combineReducers({
-    zipCodes: FetchSecuritiesReducer
+    searchItemSecurities: FetchSearchItemSecuritiesReducer,
+    securities: FetchSecuritiesReducer
 });

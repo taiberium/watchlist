@@ -26,6 +26,11 @@ export const Header = () => (
                         <NavLink to='/securities' activeClassName='menu selected'>SECURITIES</NavLink>
                     </div>
                 </li>
+              <li className="nav-item">
+                <div className="nav-link">
+                  <NavLink to='/watchlist' activeClassName='menu selected'>WATCHLIST</NavLink>
+                </div>
+              </li>
                 <li className="nav-item">
                     <div className="nav-link">
                         <NavLink to='/about' activeClassName='menu selected'>ABOUT</NavLink>

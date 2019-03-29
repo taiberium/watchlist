@@ -21,18 +21,6 @@ The template also allows one to include specific plugins as part of build. [Plea
 
 ---
 
-## Showcase
-
-### Desktop
-
-![desktop](https://user-images.githubusercontent.com/33935506/36639642-ce08ea3a-1a19-11e8-8f97-0bcb29276aaf.gif)
-
-### Mobile
-
-![mobile](https://user-images.githubusercontent.com/33935506/36639643-ce440ad4-1a19-11e8-9728-3a4b5f1bd800.gif)
-
----
-
 ## Developed With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
@@ -175,11 +163,6 @@ npm run serve:prod
 
 I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/drminnaar/react-redux-starter/tags).
 
----
-
-## Authors
-
-* **Douglas Minnaar** - *Initial work* - [drminnaar](https://github.com/drminnaar)
 
 [Redux-Promise-Middleware]: https://github.com/pburtchaell/redux-promise-middleware
 [Redux-Thunk]: https://github.com/gaearon/redux-thunk

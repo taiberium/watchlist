@@ -1,7 +1,7 @@
 import {
-    FETCH_SECURITIES_PENDING,
-    FETCH_SECURITIES_FULFILLED,
-    FETCH_SECURITIES_REJECTED
+    FETCH_SECURITIES_ITEMS_PENDING,
+    FETCH_SECURITIES_ITEMS_FULFILLED,
+    FETCH_SECURITIES_ITEMS_REJECTED
 } from '../actions/SecuritiesActions';
 
 
@@ -16,9 +16,9 @@ const initialState = {
 
 
 // REDUCER
-export const FetchSecuritiesReducer = (state = initialState, action) => {
+export const FetchSearchItemSecuritiesReducer = (state = initialState, action) => {
     switch(action.type) {
-        case FETCH_SECURITIES_PENDING:
+        case FETCH_SECURITIES_ITEMS_PENDING:
             return {
                 ...state,
                 securities: [],
@@ -26,7 +26,7 @@ export const FetchSecuritiesReducer = (state = initialState, action) => {
                 fetched: false,
                 failed: false
             };
-        case FETCH_SECURITIES_FULFILLED:
+        case FETCH_SECURITIES_ITEMS_FULFILLED:
             return {
                 ...state,
                 securities: action.payload,
@@ -34,7 +34,7 @@ export const FetchSecuritiesReducer = (state = initialState, action) => {
                 fetched: true,
                 failed: false
             };
-        case FETCH_SECURITIES_REJECTED:
+        case FETCH_SECURITIES_ITEMS_REJECTED:
             return {
                 ...state,
                 securities: [],
